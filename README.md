@@ -3,7 +3,7 @@
 *This is project is composed of HTTP requests to Swagger API* :wave::wave::smile::smile:
 
 
- ![Alt Text](https://media.giphy.com/media/QYkX9IMHthYn0Y3pcG/giphy.gif)
+ ![Alt Text](https://media.giphy.com/media/3o6ZtpxSZbQRRnwCKQ/giphy.gif)
 
 
 ##### CONTROLLERS
