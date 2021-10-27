@@ -30,8 +30,8 @@ public class AirportService {
 
     public Airport addAirport(NewAirportRequest airport) {
         Airport newAirport = Airport.builder().name(airport.getName()).build();
-        airportRepository.save(newAirport);
-        return newAirport;
+        return airportRepository.save(newAirport);
+
     }
 
 
