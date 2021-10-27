@@ -19,5 +19,6 @@ public class Plane {
     private Long id;
     @Enumerated(EnumType.STRING)
     private FlightCompany flightCompany;
+    private String name;
 
 }

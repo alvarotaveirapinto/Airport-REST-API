@@ -36,6 +36,7 @@ public class AirportController {
     public List<Airport> airportList() {
         return airportService.airportList();
     }
+
     @PostMapping(value = "/post-add/airport")
     @ApiOperation(value = "Adding an airport")
     public Airport addAirport(@RequestBody NewAirportRequest newAirportRequest) {
@@ -45,6 +46,7 @@ public class AirportController {
     public void deleteAirport(@PathVariable("id") Long airportId) {
         airportService.deleteAirport(airportId);
     }
+
     @PutMapping(value = "/post-update/airport/{id}/name")
     public ResponseEntity updateAirport(@PathVariable Long id, @RequestBody UpdateAirportRequest request) throws UpdateAirportException {
         final Airport updateAirport = airportService.updateAirport(id, request.getName());
