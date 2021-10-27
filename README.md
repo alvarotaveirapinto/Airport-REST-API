@@ -3,33 +3,33 @@
 *This is project composed of HTTP request to Swagger API*
 
 #### CONTROLLERS
-##### AIRPORT CONTROLLER
-##### PASSENGER CONTROLLER
-##### PLANE CONTROLLER
+##### Airport 
+##### Passenger 
+##### Plane 
 
 #### EXCEPTIONS
-##### AIRPORTIDEXCEPTION
-##### PASSENGERIDNOTFOUNDEXCEPTION
-##### PASSENGERNAMENOTFOUND
-##### UPDATEAIRPORTEXCEPTION
+##### AirportIdException
+##### PassengerIdNotFoundException
+##### PassengerNameNotFound
+##### UpdateAirportException
 
 ##### MODEL
-##### AIRPORT
-##### PASSENGER
-##### PLANE
+##### Airport
+##### Passenger
+##### Plane
 
 ##### REPOSITORIES
-##### AIRPORTREPOSITORY
-##### PASSENGER REPOSITORY
-##### PLANE REPOSITORY
+##### Airport
+##### Passenger
+##### Plane
 
 ##### REQUESTS
-##### NEWAIRPORTREQUEST
-##### PASSENGERIDREQUEST
-##### PLANEREQUEST
-##### UPDATEAIRPORTREQUEST
+##### NewAirportRequest
+##### PassengerIdRequest
+##### PlaneRequest
+##### UpdateAirportRequest
 
 ##### SERVICES
-##### AIRPORTSERVICE
-##### PASSENGERSERVICE
-##### PLANESERVICE
+##### Airport
+##### Passenger
+##### Plane
